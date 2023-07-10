@@ -2,7 +2,10 @@ import { createContext, useContext, useReducer } from "react"
 import reducer from "./reducer";
 
 const initialState = {
-    currentUser: null
+    currentUser: null,
+    openLogin: false,
+    loading: false,
+    alert:{ open: false,severity:'info', message:''}
 }
 
 const Context = createContext(initialState);
