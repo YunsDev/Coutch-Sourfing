@@ -10,9 +10,11 @@ const App = () => {
     <Loading/>
     <Notification/>
     <Login/>
-    <NavBar/>
+    <NavBar/> 
     </>
   )
 }
 
 export default App
+
+/* 1 NavBar shows allwase? Loading, Notfication, Login shows depending on conditions _state_ */
